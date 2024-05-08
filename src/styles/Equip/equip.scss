@@ -1,0 +1,38 @@
+.equip {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    & link {
+        display: block;
+    }
+
+    & img {
+        display: block;
+        width: 80%;
+        margin: 5px auto;
+        transition: filter 0.3s ease;
+
+        &.blurred {
+            filter: blur(5px);
+        }
+    }
+
+    .equip-number {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        pointer-events: none; // Додано цю властивість
+        z-index: 1; // Додано цю властивість
+    }
+
+    & img.blurred+.equip-number {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,32 @@
+:root {
+  --index: calc(1vw + 1vh) ;
+}
+
+main .part {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 6%;
+}
+@media (max-width: 800px) {
+  main .part {
+    grid-template-columns: 1fr;
+  }
+}
+main .part .about {
+  padding: 20%;
+}
+@media (max-width: 800px) {
+  main .part .about {
+    padding: 0 8%;
+  }
+}
+main .part .about h2 {
+  font-size: calc(var(--index) * 1.6);
+  margin: 5% 0;
+}
+main .part .about h2 span {
+  color: #4054FF;
+}
+main .part .about p {
+  font-size: calc(var(--index) * 0.8);
+}/*# sourceMappingURL=start.css.map */

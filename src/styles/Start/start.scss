@@ -1,0 +1,38 @@
+// for responsive layout - font :)
+:root {
+    --index: calc(1vw + 1vh)
+}
+
+main {
+
+    & .part {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 6%;
+
+        @media (max-width: 800px) {
+            grid-template-columns: 1fr;
+        }
+
+        & .about {
+            padding: 20%;
+
+            @media (max-width: 800px) {
+                padding: 0 8%;
+            }
+
+            & h2 {
+                font-size: calc(var(--index)*1.6);
+                margin: 5% 0;
+
+                & span {
+                    color: #4054FF;
+                }
+            }
+
+            & p {
+                font-size: calc(var(--index) * 0.8);
+            }
+        }
+    }
+}
