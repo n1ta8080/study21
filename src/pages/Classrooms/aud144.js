@@ -1,5 +1,6 @@
 import React from "react"
 import Equip from "../../components/equip"
+import Nav from "../../components/nav/nav"
 import Footer from "../../components/footer"
 import "../../styles/Equip/aud.scss"
 
@@ -15,6 +16,7 @@ class Aud144 extends React.Component {
     render() {
         return (
             <div>
+                <Nav />
                 <div className="aud">
                     <h2>Classroom 144</h2>
                     <p>Choose network devise which you want to get remote access</p>

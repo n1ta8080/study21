@@ -8,6 +8,8 @@ import Aud136 from './pages/Classrooms/aud136';
 import Aud138 from './pages/Classrooms/aud138';
 import Aud144 from './pages/Classrooms/aud144';
 
+import { Suspense } from 'react';
+
 function App() {
   return (
     <div className="App">
@@ -23,4 +25,10 @@ function App() {
   );
 }
 
-export default App;
+export default function WrappedApp() {
+  return (
+    <Suspense fallback="...loading">
+      <App />
+    </Suspense>
+  )
+}

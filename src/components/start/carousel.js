@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import Carousel from 'react-spring-3d-carousel';
 import { ArrowRight, ArrowLeft } from 'lucide-react';
-import "../styles/Start/carousel.scss"
+import "../../styles/Start/carousel.scss"
 
 // pics for slider
-import pic1 from "../img/main/carousel/1st.jpg"
-import pic2 from "../img/main/carousel/2nd.jpg"
-import pic3 from "../img/main/carousel/3rd.jpg"
-import pic4 from "../img/main/carousel/4th.jpg"
+import pic1 from "../../img/main/carousel/1st.jpg"
+import pic2 from "../../img/main/carousel/2nd.jpg"
+import pic3 from "../../img/main/carousel/3rd.jpg"
+import pic4 from "../../img/main/carousel/4th.jpg"
 
 
 const Slidee = () => {

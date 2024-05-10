@@ -6,6 +6,7 @@
 .container {
 
     &__header {
+        margin: 1em 0;
         & h2 {
             font-size: calc(var(--index) * 1.2);
             color: #012E67;

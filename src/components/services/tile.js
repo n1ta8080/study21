@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import "../styles/Services/tile.scss"
+import "../../styles/Services/tile.scss"
 
 
 const Tile = ({ link, imgSrc, altImg, title, description, bold }) => {

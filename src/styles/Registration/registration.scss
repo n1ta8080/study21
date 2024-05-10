@@ -116,6 +116,7 @@ html::-webkit-scrollbar {
         & p {
             font-weight: 200;
             font-size: calc(var(--index));
+            width: 70%;
 
             & a {
                 font-style: italic;

@@ -1,0 +1,42 @@
+{
+    "registration": {
+        "head": "Welcome to",
+        "department21": "Department21",
+        "description": "the main application for maintaining network equipment",
+        "details": "more details",
+        "form": {
+            "signIn": "Sign In",
+            "username": "Username",
+            "password": "Password",
+            "or": "Or",
+            "guest": "Continue as a guest"
+        }
+    },
+    "start": {
+        "head": "Welcome to",
+        "dep": "Department21",
+        "description": "We provide skills in maintain network equipment and this web-site was written for your convenient study. We dedicated to prepare you as future specialist for becoming System Administrator and DevOps engineer for Armed Forces of Ukraine"
+    },
+    "tile": {
+        "head": "Department21",
+        "parag": "Make study convenient and modern for you",
+        "classroom": "Classrrom",
+        "description": "Remote accces to network equipment in classroom",
+        "services": {
+            "gitlab": "Version Control System",
+            "moodle": "Online learning platform with huge MITIT library",
+            "proxmox": "",
+            "netacad": "Network Cisco Academy",
+            "drive": "The reliable place for saving your data",
+            "journal": "Research papers collection",
+            "schedule": "Timetable of your classes"
+        }
+    },
+    "nav": {
+        "services": "Services",
+        "lab": "Lab Work",
+        "about": "About",
+        "login": "Sign In"
+    },
+    "footer": "Designed by Department21 @ Kyiv 2024"
+}
